@@ -1,5 +1,5 @@
 # Use Maven with OpenJDK base image
-FROM maven:3.8.6-openjdk-17
+FROM maven:3.9.4-eclipse-temurin-17
 
 # Install wget, unzip, and browsers (chromium and firefox)
 RUN apt-get update && apt-get install -y \
